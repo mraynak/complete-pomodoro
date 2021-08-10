@@ -23,7 +23,7 @@ function BreakTime({ breakDuration, increaseBreakTime, decreaseBreakTime, disabl
           <button
             type="button"
             className="btn btn-secondary"
-            data-testid="increase-break"
+            data-testid="increase-breakn"
             onClick={increaseBreakTime}
             disabled={disableButton}
           >

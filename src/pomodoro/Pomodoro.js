@@ -174,7 +174,7 @@ function Pomodoro() {
               className="btn btn-secondary"
               data-testid="stop"
               title="Stop the session"
-              disable={stopButton}
+              disabled={stopButton}
               onClick={handleStop}
             >
               <span className="oi oi-media-stop" />
